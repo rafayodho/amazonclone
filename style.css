@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box ;
+
+}
+.navbar{
+    height: 60px;
+    background: #0F1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url(./image/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 113px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+  /* Delivery address ha  */
+  .deliver{
+    color: #CCCCCC;
+    font-size: 12px;
+    margin-left: 15px;
+
+  }
+  .pak{
+    font-size: 14px;
+    margin-left: 3px;
+
+  }
+  .add-icon{
+    display: flex;
+    align-items: center;
+  }
+
+  /* search items kay elements han  */
+  .nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(136, 224, 224);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+  }
+  .nav-search:hover{
+    border: 2px solid orange;
+  }
+  .search-select{
+    background-color: #E6E6E6;
+    width: 52px;
+    text-align: center;
+    border-radius: 4px 0 0 4px;
+    border: none;
+  }
+  .search-input{
+    width: 100%;
+    font-size: 16px;
+    border: none;
+
+  }
+  .search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 0 4px 4px 0;
+    background-color: #febd68;
+    color: #0F1111;
+  }
+  /* sign in section elements  */
+  span{
+    font-size: 12px;
+
+  }
+  .nav-second{
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  /* cart items elemenst  */
+  .nav-cart i {
+    font-size: 30px;
+
+  }
+  .nav-cart{
+    font-size: 14px;
+    font-weight: 700;
+  }
